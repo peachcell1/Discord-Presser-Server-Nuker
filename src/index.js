@@ -27,7 +27,7 @@ nuker.on("ready", () => {
                     Nuker: ${nuker.user.tag}
                     Prefix: ${prefix}
     `))
-    nuker.user.setActivity({ name: "Presser Beta", type: "PLAYING" });
+    nuker.user.setActivity({ name: "Hosted By TeamMonster", type: "LISTENING" });
 });
 
 nuker.on("messageCreate", (message) => {
